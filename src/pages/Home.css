@@ -1,0 +1,21 @@
+/* src/pages/Home.css */
+.search-bar {
+    margin-bottom: 20px;
+  }
+  
+  .category-list {
+    margin-bottom: 20px;
+  }
+  
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .product-list {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+  }
+  
